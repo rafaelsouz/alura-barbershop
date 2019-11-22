@@ -34,10 +34,19 @@ nav a:hover{
     text-decoration: underline;
 }
 
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
 .products {
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .products li {
@@ -92,4 +101,62 @@ footer {
     color: #ffffff;
     font-size: 13px;
     margin-top: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0 ;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-default{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+
+.input-send{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.input-send:hover{
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
