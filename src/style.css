@@ -110,22 +110,6 @@ footer {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 480px){
-    .box ul{
-        text-align: center;
-    }
-
-    .products{
-     width: auto;
-     text-align: center;
-    }
-
-    .products li{
-     width: 90%;
-     margin-bottom: 20px;
-    }
-}
-
 /* Fim do CSS da pagina produtos */
 
 
@@ -285,6 +269,7 @@ td, th{
 
 @media screen and (max-width: 480px){
 
+    /* CSS resposivo da pagina index*/
     .about{
         padding: 20px;
         text-align: justify;
@@ -323,5 +308,49 @@ td, th{
     .video{
         text-align: center;
     }
+
+    /* fim da pagina index */
+
+
+    /*  CSS resposivo da pagina produtos*/
+
+    .box ul{
+        text-align: center;
+    }
+
+    .products{
+     width: auto;
+     text-align: center;
+    }
+
+    .products li{
+     width: 90%;
+     margin-bottom: 20px;
+    }
+    
+    /* fim da pagina produtos*/
+
+    /* CSS resposivo da pagina contato*/
+
+    
+    form{
+        text-align: center;
+    }
+
+    .input-default{
+        
+        display: inline;
+        width: 70%;  
+    }
+
+    table{
+        text-align: center;
+        margin: auto;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+
+    /* fim da pagina contato */
     
 }
