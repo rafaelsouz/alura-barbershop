@@ -110,12 +110,26 @@ footer {
     margin-top: 20px;
 }
 
-/*CSS da pagina de contato */
+@media screen and (max-width: 480px){
+    .box ul{
+        text-align: center;
+    }
 
-main {
-    
+    .products{
+     width: auto;
+     text-align: center;
+    }
+
+    .products li{
+     width: 90%;
+     margin-bottom: 20px;
+    }
 }
 
+/* Fim do CSS da pagina produtos */
+
+
+/*CSS da pagina de contato */
 form {
     margin: 40px 0 ;
 }
@@ -168,6 +182,9 @@ td, th{
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+/*Fim do  CSS da pagina Contato */
+
 
 /* CSS da pagina inicial */
 
@@ -264,4 +281,47 @@ td, th{
 .video{
     width: 560px;
     margin: 2em auto;
+}
+
+@media screen and (max-width: 480px){
+
+    .about{
+        padding: 20px;
+        text-align: justify;
+    }
+
+    .box, .about, .contentBenefit, .mapContent, .video{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .benefit{
+        padding-top: 0;
+    }
+
+    .contentBenefit{
+        text-align: center;
+    }
+
+    .listBenefit{
+        width: 100%;
+    }
+
+    .imgBenefit{
+        width: 90%;
+        margin-top: 20px;
+
+    }
+
+    .video{
+        text-align: center;
+    }
+    
 }
