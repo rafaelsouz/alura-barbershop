@@ -115,7 +115,7 @@ footer {
 
 /*CSS da pagina de contato */
 form {
-    margin: 40px 0 ;
+    margin: 40px 0 40px 40px;
 }
 
 form label, form legend{
@@ -153,7 +153,7 @@ form label, form legend{
 }
 
 table{
-    margin: 20px 0 40px;
+    margin: 20px 0 40px 40px;
 }
 
 thead{
@@ -349,7 +349,6 @@ td, th{
         margin-bottom: 40px;
         margin-top: 20px;
     }
-
 
     /* fim da pagina contato */
     
