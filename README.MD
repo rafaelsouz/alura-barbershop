@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center"> Alura BarberShop </h1>
 <br>
 <h3 align="center"> Home </h3>
 <img align = 'center' src="./screenshots/home.png" alt="Home do site">
@@ -7,8 +7,7 @@
 <img align = 'center' src="./screenshots/produto_e_contato.png" alt="Pagina Produto e Contato">
 <br>
 <br>
-Alura BarberShop
-</h1>
+
 
 Site feito durante os cursos de HTML e CSS (Parte 1 a Parte 4) da Alura
 
